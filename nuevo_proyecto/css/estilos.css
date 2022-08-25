@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0%;
+   
+
+}
+header{
+    border: 1px solid blue;
+   height: 5rem;
+   background-color: rgb(255, 230, 0);
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+main{
+    border: 1px solid blue;
+    flex-grow: 3;
+    
+    display: flex;
+    
+
+    
+
+}
+
+footer{
+    border: 1px solid blue;
+    height: 3rem;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#index{
+    border: 1px solid blue;
+    background-color: rgb(83, 201, 122);
+    flex-grow: 0.1;
+    
+}
+
+#shop{
+    border: 1px solid blue;
+    width: 14rem;
+    background-color: aqua;
+
+
+}
+
+#principal{
+    width: 8rem;
+    background-color: antiquewhite;
+    border: 1px solid;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+background-color: aquamarine;
+   display: flex;
+   height: 4rem;
+
+   
+}
+
+nav input{
+    color:black;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 4rem;
+    flex-grow: 1;
+    margin: 4px;
+    font-size: 20px;
+}
+i{
+    width:4rem;
+    height: 4rem;
+    border-radius: 30px;
+    background-color: black;
+     
+  
+}
+
+.boton{
+    
+    background-image: center;
+
+}
+
+
+
+
+
+
+.product-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+   
+    border: 1px solid rgba(41, 36, 36, 0.295);
+
+}
+
+article{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
